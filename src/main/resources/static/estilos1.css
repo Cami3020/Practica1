@@ -1,0 +1,92 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 jun 2024, 11:34:21 p.m.
+    Author     : camim
+*/
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #ff0033;
+    color: white;
+}
+#encabezado h1 {
+    display: inline;
+}
+
+#menu {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: antiquewhite;
+    color: black;
+}
+
+#menu a:visited {
+    color: navy;
+}
+
+#menu a:hover {
+    background-color: #cc00ff;
+    color: white;
+}
+
+#barraLateral {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 81%;
+    width: 20%;
+    background-color: salmon;
+    color: black;
+}
+
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: #ccffcc;
+    color: black;
+    overflow: auto;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    background-color: #ccccff;
+    color: black;
+    text-align: center;
+}
+
+#encabezadoTabla {
+    font-size: 20px;
+    color: white;
+    background-color: cadetblue;
+}
+
+#contenedorTitulo {
+    text-align:  center;
+    color: orange;
+    margin: 0 auto;
+}
+
+.parrafosecundario {
+    font-size: 22px;
+    color: olive;
+}
+
+p span{
+    color: red;
+}
